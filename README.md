@@ -11,8 +11,42 @@ This repository will actually serve as a aid to help you get started with your o
 ## Hello_CircuitPython
 
 ### Description & Code
-Description goes here
-This code makes the servo rotate 180 degrees, it took me a while to figure out how to properly wire the servo onto my board.
+This code makes the servo rotate 180 degrees
+
+Here's how you make code look like code:
+
+```python
+Code goes here
+import board
+import neopixel
+
+dot = neopixel.NeoPixel(board.NEOPIXEL, 1)
+
+print("make it red!")
+dot.brightness = 0.2
+while True:
+    dot.fill((255, 0, 0))
+
+
+```
+
+
+### Evidence
+Pictures / Gifs of your work should go here.  You need to communicate what your thing does.
+
+### Wiring
+Make an account with your google ID at [tinkercad.com](https://www.tinkercad.com/learn/circuits), and use "TinkerCad Circuits to make a wiring diagram."  It's really easy!  
+Then post an image here.   [here's a quick tutorial for all markdown code, like making links](https://guides.github.com/features/mastering-markdown/)
+
+### Reflection
+For this one all we had to change was then RGB settings and then the colrs were changing.
+
+## CircuitPython_Servo
+
+### Description & Code
+
+```python
+This code makes the servo rotate 180 degrees
 
 Here's how you make code look like code:
 
@@ -41,34 +75,12 @@ while True:
 
 ```
 
-
-### Evidence
-Pictures / Gifs of your work should go here.  You need to communicate what your thing does.
-
-### Wiring
-Make an account with your google ID at [tinkercad.com](https://www.tinkercad.com/learn/circuits), and use "TinkerCad Circuits to make a wiring diagram."  It's really easy!  
-Then post an image here.   [here's a quick tutorial for all markdown code, like making links](https://guides.github.com/features/mastering-markdown/)
-
-### Reflection
-What went wrong / was challenging, how'd you figure it out, and what did you learn from that experience?  Your ultimate goal for the reflection is to pass on knowledge that will make this assignment better or easier for the next person.
-
-
-
-
-## CircuitPython_Servo
-
-### Description & Code
-
-```python
-Code goes here
-
-```
-
 ### Evidence
 
 ### Wiring
 
 ### Reflection
+We found the code on the Circuit Python Servo website and pasted it onto the software. It took me a while to figure out how to hook the servo up to my board correctly but after that it started moving.
 
 
 

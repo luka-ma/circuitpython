@@ -149,11 +149,8 @@ while True:
     print(r, g, b)
     dot.fill((int(r), int(b), int(g)))
     time.sleep(0.05)
-
-
-
-
 ```
+Credit for code goes to [Nick C](https://github.com/Cowboys4life/Engineering_3_Notebook) ,thanks Nick!
 
 ### Evidence
 

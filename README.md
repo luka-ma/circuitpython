@@ -74,6 +74,8 @@ while True:
 
 
 ```
+### Image
+https://github.com/luka-ma/circuitpython/blob/main/Images/IMG_9406.gif?raw=true
 
 ### Evidence
 
